@@ -19,7 +19,7 @@
             bottom: 0px;
         }
         #brick{
-             background-image: url('brick.jpg');
+             background-image: url('brickPatternD (1).png');
              background-size: 20px;
                width: 200px;
                height: 150px;
@@ -28,13 +28,32 @@
                left: 80px;
                background-color: #943f28;
         }
-
-
+        .roof {
+  width: 0px; 
+  height: 0px; 
+  border-left: 110px solid transparent;
+  border-right: 110px solid transparent;
+  border-bottom: 50px solid orange;
+  position: absolute;
+  top: 30px;
+  left: 70px;
+}
+        #door {
+            background-image: url('door.png');
+            background-size: 20px;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
 </style>
     </head>
         <body>
          <div id='ground'></div>
          <div id='brick'></div>
+         <div class="roof"></div>
+         <div class='door'
          </body>
 
 
